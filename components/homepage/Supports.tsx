@@ -6,7 +6,7 @@ import { supportItem } from '@/config/SupportsItem'
 const Supports = () => (
   <div className='relative w-full py-[175px] container backgroundGradient'>
     <h2 className={`${styles.contentTitleText} mb-[50px]`}>{supportsText}</h2>
-    <div className='grid grid-cols-3 gap-12'>
+    <div className='grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
       {supportItem.map((item, idx) => (
         <div className='flex flex-row items-center gap-[15px]' key={idx}>
           <Image alt={item.name} src={item.icon} width={65} height={75} />

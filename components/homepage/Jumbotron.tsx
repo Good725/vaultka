@@ -12,16 +12,20 @@ const HomepageWrapper = ({ children }: HomepageWrapperProps) => (
     <div className='-z-1 absolute h-full w-full animate-pulse'>
       <Image loading='eager' src='/assets/background.png' alt='bg' fill />
     </div>
-    <div className='z-2 relative flex justify-between container'>
+    <div className='z-2 relative flex flex-row justify-between container sm:flex-col'>
       <div className='flex flex-col pt-40'>
-        <h1 className='flex font-pixel text-[4rem] font-extrabold leading-[120%] text-primary drop-shadow-md'>
+        <h1 className='flex font-pixel text-[4rem] font-extrabold leading-[120%] text-primary drop-shadow-md sm:text-[2rem]'>
           SECURE&nbsp;<p className='text-gold'>FUND</p>
         </h1>
-        <h1 className='flex pb-5 font-pixel text-[4rem] font-extrabold leading-[120%] text-primary drop-shadow-md'>
+        <h1 className='flex pb-5 font-pixel text-[4rem] font-extrabold leading-[120%] text-primary drop-shadow-md sm:text-[2rem]'>
           SECURE&nbsp;<p className='text-gold'>RETURN</p>
         </h1>
-        <p className='pb-16 text-[27px]'>{HeadSubText}</p>
-        <CustomButton title='Launch App' onClick={''} className='mb-16' />
+        <p className='pb-16 text-[27px] sm:text-[16px]'>{HeadSubText}</p>
+        <CustomButton
+          title='Launch App'
+          onClick={''}
+          className='mb-16 sm:m-auto'
+        />
       </div>
       <div className='flex flex-col justify-center'>
         <Image

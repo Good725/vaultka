@@ -17,9 +17,11 @@ const StrategyCard = ({
   children,
   isShowMarkImage = false
 }: StrategyCardProps) => (
-  <div className='flex flex-col'>
+  <div className='flex flex-col sm:mt-[48px]'>
     <div className={styles.strategyCard}>
-      <div className={`${styles.strategyCardBox} h-[497px] w-[448px]`}>
+      <div
+        className={`${styles.strategyCardBox} h-[497px] w-[448px] sm:h-full sm:w-full`}
+      >
         <Image
           className={`mb-[22px] max-w-max ${imageCss}`}
           alt={title}

@@ -22,7 +22,7 @@ interface StrategyProps {
 const Strategy = ({ children }: StrategyProps) => (
   <div
     id='strategy'
-    className='relative mt-[175px] flex w-full flex-col items-center'
+    className='relative mt-[175px] flex w-full flex-col items-center sm:block'
   >
     <h2 className={`${styles.contentTitleText} mb-[30px]`}>{strategyText}</h2>
     <span className={`${styles.contentTitleSubText} mb-[75px] max-w-[792px]`}>
@@ -36,13 +36,13 @@ const Strategy = ({ children }: StrategyProps) => (
       height={684}
     />
     <Image
-      className='absolute right-0'
+      className='absolute right-0 sm:hidden'
       alt='glow_behind_card'
       src='/assets/images/glow_behind_card.png'
       width={403}
       height={366}
     />
-    <div className='flex flex-col'>
+    <div className='flex flex-col sm:mt-[32px]'>
       <Image
         className='absolute left-[-24px] md:left-[-80px] xl:left-[-120px]'
         alt='backgrd_circle_left'
@@ -50,7 +50,7 @@ const Strategy = ({ children }: StrategyProps) => (
         width={559}
         height={990}
       />
-      <div className='flex flex-row justify-between gap-[157px] '>
+      <div className='flex flex-row justify-between sm:flex-col sm:items-center sm:justify-center md:gap-[157px]'>
         <StrategySection
           title={gmxText}
           subTitle={glpText}
@@ -58,7 +58,6 @@ const Strategy = ({ children }: StrategyProps) => (
           isAvailableInvest
           onClick={''}
         />
-
         <StrategyCard
           image='/assets/images/vodka_strategy.png'
           title='Vodka Strategy'
@@ -90,7 +89,7 @@ const Strategy = ({ children }: StrategyProps) => (
           </Card>
         </StrategyCard>
       </div>
-      <div className='mt-[125px] mb-[169px] flex flex-row justify-between gap-[157px]'>
+      <div className='mt-[131px] mb-[169px] flex flex-row justify-between sm:my-[32px] sm:flex-col sm:items-center sm:justify-center md:gap-[157px]'>
         <StrategySection
           title={myceliumText}
           subTitle={mlpText}

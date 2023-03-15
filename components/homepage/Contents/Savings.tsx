@@ -15,8 +15,8 @@ const Savings = ({ children }: HomepageWrapperProps) => (
       {savingSubText}
     </span>
     <Card className={styles.savingCard}>
-      <div className='flex flex-row justify-between gap-[38px]'>
-        <div className='mt-[45px] ml-[50px] flex flex-col items-start'>
+      <div className='flex flex-row justify-between gap-[38px] sm:flex-col'>
+        <div className='mt-[45px] ml-[50px] flex flex-col items-start sm:ml-[24px]'>
           <h1 className={`mb-[45px] ${styles.normalHeadText}`}>Savings</h1>
           <p className={styles.defaultText}>{savingInnerText}</p>
           <Image
@@ -28,7 +28,7 @@ const Savings = ({ children }: HomepageWrapperProps) => (
           />
         </div>
         <Image
-          className='mt-[31px] mb-[7px] mr-[39.36px]'
+          className='mt-[31px] mb-[7px] mr-[39.36px] sm:m-auto'
           alt='gold'
           src='/assets/images/gold.png'
           width={293}

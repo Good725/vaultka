@@ -32,10 +32,10 @@ const StrategySection = ({
       <CustomButton
         title='Invest Now!'
         onClick={onClick}
-        className='!rounded-[20px] !py-[20px] !px-[79.23px] !text-base'
+        className='!rounded-[20px] !py-[20px] !px-[79.23px] !text-base sm:m-auto'
       />
     ) : (
-      <p className='text-[16px] font-bold leading-[22px] text-[#BFA677]'>
+      <p className='text-[16px] font-bold leading-[22px] text-[#BFA677] sm:m-auto'>
         Coming Soon...
       </p>
     )}
