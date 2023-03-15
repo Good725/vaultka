@@ -15,10 +15,10 @@ const HomepageWrapper = ({ children }: HomepageWrapperProps) => (
     <div className='z-2 relative flex justify-between container'>
       <div className='flex flex-col pt-40'>
         <h1 className='flex font-pixel text-[4rem] font-extrabold leading-[120%] text-primary drop-shadow-md'>
-          SECURE<p className='text-gold'>FUND</p>
+          SECURE&nbsp;<p className='text-gold'>FUND</p>
         </h1>
         <h1 className='flex pb-5 font-pixel text-[4rem] font-extrabold leading-[120%] text-primary drop-shadow-md'>
-          SECURE<p className='text-gold'>RETURN</p>
+          SECURE&nbsp;<p className='text-gold'>RETURN</p>
         </h1>
         <p className='pb-16 text-[27px]'>{HeadSubText}</p>
         <CustomButton title='Launch App' onClick={''} className='mb-16' />

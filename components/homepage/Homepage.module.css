@@ -16,7 +16,7 @@
 .heavyText {
   font-weight: 700;
   font-size: 100px;
-  line-height: 30px;
+  /* line-height: 30px; */
   letter-spacing: -0.015em;
   background: linear-gradient(
     90deg,

@@ -10,7 +10,6 @@ const QuestionItem = ({ data }: { data: QuestionDataProps }) => {
   const contentSpace = useRef(null)
 
   const toggleAccordion = () => {
-    console.log('aa')
     setActive((prevState) => !prevState)
     // @ts-ignore
     setHeight(active ? '0px' : `${contentSpace.current.scrollHeight}px`)

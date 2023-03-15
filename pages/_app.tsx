@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
             --mainFontFamily: ${mainFontSetup.style.fontFamily};
           }
           body {
-            font-family: var(--fontFamily);
+            // font-family: var(--fontFamily);
             font-style: ${fontSetup.style.fontStyle};
             font-weight: ${fontSetup.style.fontWeight || '400'};
           }

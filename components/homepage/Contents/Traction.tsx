@@ -14,14 +14,15 @@ const Traction = ({ children }: HomepageWrapperProps) => (
       {tractionText}
     </h2>
     <Card className='py-[30px] px-[100px]'>
-      <div className='flex flex-row justify-between'>
+      <div className='flex flex-row justify-between gap-[123px]'>
         <div className='flex flex-col items-center'>
-          <h1 className={styles.heavyText}>70k</h1>
+          <h1 className={`${styles.heavyText} absolute mt-[-83px]`}>70k</h1>
           <Image
             alt='mark-bottom'
             src='/assets/images/mask-bottom.png'
             width={202}
             height={18}
+            className='mt-[33px] h-[18px]'
           />
           <p className={styles.normalText}>Total Users</p>
         </div>

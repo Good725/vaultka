@@ -25,13 +25,6 @@ const Strategy = ({ children }: StrategyProps) => (
     className='relative mt-[175px] flex w-full flex-col items-center'
   >
     <h2 className={`${styles.contentTitleText} mb-[30px]`}>{strategyText}</h2>
-    {/* <Image
-      className='absolute'
-      alt='glow_behind_card'
-      src='/assets/images/glow_behind_card.png'
-      width={403}
-      height={366}
-    /> */}
     <span className={`${styles.contentTitleSubText} mb-[75px] max-w-[792px]`}>
       {strategySubText}
     </span>
@@ -41,6 +34,13 @@ const Strategy = ({ children }: StrategyProps) => (
       src='/assets/images/backgrd_circle_right.png'
       width={227}
       height={684}
+    />
+    <Image
+      className='absolute right-0'
+      alt='glow_behind_card'
+      src='/assets/images/glow_behind_card.png'
+      width={403}
+      height={366}
     />
     <div className='flex flex-col'>
       <Image
@@ -58,6 +58,7 @@ const Strategy = ({ children }: StrategyProps) => (
           isAvailableInvest
           onClick={''}
         />
+
         <StrategyCard
           image='/assets/images/vodka_strategy.png'
           title='Vodka Strategy'
