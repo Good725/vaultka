@@ -1,6 +1,4 @@
 import { ReactNode } from 'react'
-import config from '@/config'
-import Image from 'next/image'
 
 interface CardProps {
   className?: string

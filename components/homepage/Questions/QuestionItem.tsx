@@ -42,7 +42,7 @@ const QuestionItem = ({ data }: { data: QuestionDataProps }) => {
       >
         <div className='pb-10'>{data.answer}</div>
       </div>
-      <Divider className='!normalBorder mb-[20px] !h-[1px] !bg-none' />
+      <Divider className='mb-[20px] !h-[1px] !bg-none !normalBorder' />
     </div>
   )
 }

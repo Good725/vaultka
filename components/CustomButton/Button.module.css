@@ -1,28 +1,33 @@
 .btn {
-    background: linear-gradient(93.89deg, #816746 0.8%, #BDA180 98.53%);
-    border-radius: 999px;
-    padding: 27px 78.5px;
-    width: max-content;
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #FFFFFF;
+  background: linear-gradient(93.89deg, #816746 0.8%, #bda180 98.53%);
+  border-radius: 999px;
+  padding: 27px 78.5px;
+  width: max-content;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .borderBtn {
-    padding: 0.75rem 3rem;
-    border-width: 1px;
-    border-radius: 0.5rem;
-    border-color: #BDA180;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    box-sizing: border-box;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1rem;
-    text-align: center;
-    background: linear-gradient(90deg, #816746 20.2%, #BDA180 52.95%, #7F6544 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+  padding: 0.75rem 3rem;
+  border-width: 1px;
+  border-radius: 0.5rem;
+  border-color: #bda180;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    #816746 20.2%,
+    #bda180 52.95%,
+    #7f6544 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }

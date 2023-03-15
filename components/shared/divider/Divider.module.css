@@ -1,7 +1,12 @@
 .divider {
-    background: linear-gradient(90deg, #816746 20.2%, #BDA180 52.95%, #7F6544 100%);
-    border: 1px solid rgba(228, 234, 241, 0.1);
-    transform: matrix(1, 0, 0, -1, 0, 0);
-    width: 100%;
-    height: 3px;
+  background: linear-gradient(
+    90deg,
+    #816746 20.2%,
+    #bda180 52.95%,
+    #7f6544 100%
+  );
+  border: 1px solid rgba(228, 234, 241, 0.1);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  width: 100%;
+  height: 3px;
 }

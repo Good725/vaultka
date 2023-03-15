@@ -55,13 +55,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='goldBorder mt-[20px] h-0 w-full' />
+        <div className='mt-[20px] h-0 w-full goldBorder' />
         <div className='mt-5 flex w-full flex-row items-center justify-between'>
           <p className='text-xs font-light'>© 2021 All Rights Reserved</p>
           <div className='flex flex-row gap-[40px]'>
             {footerList.map((footer, idx) => (
               <Link key={idx} href={footer.link}>
-                <button className='text-primary-500 text-[10px] leading-[30px]'>
+                <button className='text-[10px] leading-[30px] text-primary-500'>
                   {footer.title}
                 </button>
               </Link>
@@ -71,7 +71,7 @@ const Footer = () => {
       </div>
       <button
         onClick={handleScrollToTop}
-        className='roundBorder absolute right-0 mr-[60px] flex h-8 w-8 items-center justify-center rounded-full'
+        className='absolute right-0 mr-[60px] flex h-8 w-8 items-center justify-center rounded-full roundBorder'
       >
         <Image
           src='/assets/icons/arrows_above.svg'
