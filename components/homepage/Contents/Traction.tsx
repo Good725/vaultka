@@ -17,7 +17,7 @@ const Traction = ({ children }: HomepageWrapperProps) => (
       <div className='flex flex-row justify-between gap-[123px] sm:gap-[32px]'>
         <div className='flex flex-col items-center'>
           <h1
-            className={`${styles.heavyText} absolute mt-[-83px] sm:mt-[-50px]`}
+            className={`${styles.heavyText} absolute mt-[-95px] sm:mt-[-50px]`}
           >
             70k
           </h1>
@@ -26,7 +26,7 @@ const Traction = ({ children }: HomepageWrapperProps) => (
             src='/assets/images/mask-bottom.png'
             width={202}
             height={18}
-            className='mt-[33px] h-[18px] sm:mt-[24px] sm:mb-[12px] sm:w-[150px]'
+            className='mt-[25px] mb-[7px] h-[18px] sm:mt-[24px] sm:mb-[12px] sm:w-[150px]'
           />
           <p className={styles.normalText}>Total Users</p>
         </div>
