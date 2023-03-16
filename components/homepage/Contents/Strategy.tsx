@@ -82,7 +82,7 @@ const Strategy = ({ children }: StrategyProps) => (
                 <p
                   className={`${styles.normalText} !font-bold !leading-[27px] !text-primary`}
                 >
-                  $273414.3
+                  ${(273414.3).toLocaleString()}
                 </p>
               </div>
             </div>
